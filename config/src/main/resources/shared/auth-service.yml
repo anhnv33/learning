@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      username: user
+      password: 123456
+      database: piggymetrics
+      port: 27017
+
+server:
+  servlet:
+    context-path: /uaa
+  port: 5000
