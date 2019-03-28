@@ -10,7 +10,7 @@ security:
 spring:
   data:
     mongodb:
-      host: localhost=
+      host: localhost
       database: piggy
       port: 27017
 

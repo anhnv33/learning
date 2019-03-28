@@ -21,10 +21,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="account" options="-parameters" />
-      <module name="authenticate" options="-parameters" />
-      <module name="config" options="-parameters" />
-      <module name="registration" options="-parameters" />
+      <module name="account" options="" />
+      <module name="authenticate" options="" />
+      <module name="config" options="" />
+      <module name="registration" options="" />
     </option>
   </component>
 </project>
