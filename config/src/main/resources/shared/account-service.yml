@@ -1,0 +1,24 @@
+security:
+  oauth2:
+    client:
+      clientId: account-service
+      clientSecret: 123456
+      accessTokenUri: http://auth-service:5000/uaa/oauth/token
+      grant-type: client_credentials
+      scope: server
+
+spring:
+  data:
+    mongodb:
+      host: localhost=
+      database: piggy
+      port: 27017
+
+server:
+  servlet:
+    context-path: /accounts
+  port: 6000
+
+feign:
+  hystrix:
+    enabled: true
